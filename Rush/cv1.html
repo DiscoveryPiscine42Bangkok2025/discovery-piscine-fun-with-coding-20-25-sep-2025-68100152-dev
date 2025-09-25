@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume - [ชื่อบุคคล]</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            background-color: #1e1e1e;
+            color: #e5e5e5;
+            margin: 0;
+            padding-top: 60px; /* เว้นพื้นที่ด้านบนสำหรับ navbar ที่ fixed */
+        }
+        .navbar {
+            background-color: #000;
+            color: #e5e5e5;
+            padding: 15px;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+        }
+        .navbar a {
+            color: #e5e5e5;
+            text-decoration: none;
+            padding: 14px 20px;
+            display: inline-block;
+        }
+        .navbar a:hover {
+            background-color: #333;
+        }
+        .section {
+            padding: 50px 20px;
+        }
+        #profile { 
+            background-color: #2a2a2a; 
+            text-align: center; 
+        }
+        #experience { 
+            background-color: #1e1e1e; 
+        }
+        #contact { 
+            background-color: #2a2a2a; 
+            text-align: center;
+        }
+        .profile-photo {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 20px;
+        }
+        h2 {
+            color: #fff;
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="#profile">About</a>
+        <a href="#experience">Experience & Skills</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+  <div id="profile" class="section">
+    <h2>About Me</h2>
+    <img src="https://cdn.discordapp.com/attachments/927530656538435644/1420363846152884254/6316.jpg?ex=68d5206a&is=68d3ceea&hm=2e841048e3c92d29e941c4de75fe3f67339540ef4aaaff91e0d3716eddeec6d7&" alt="รูปภาพของคนที่ 1" class="profile-photo">
+    <h3>[ชยพล เกียรติศักดิ์]</h3>
+    <h4>[นักศึกษาคณะบริหารธุรกิจ(สาขาเศรฐศาสตร์)]</h4>
+    <p>[ชอบฟังเพลง เล่นเกม อ่านการตูน  ออกกำลังกาย]</p>
+</div>
+
+    <div id="experience" class="section">
+        <h2>Professional Experience & Skills</h2>
+        <div>
+            <h3>Experience</h3>
+            <ul>
+                <li>[ฝ่ายผู้บริหารโรงเรียน และจัดกิจกรรม]</li>
+                <li>[ทำวงดนตรี เล่นคอนเสิตในโรงเรียน]</li>
+            </ul>
+        </div>
+        <div>
+            <h3>Skills</h3>
+            <ul>
+                <li>[การปรับตัวกับสิ่งใหม่ๆ]</li>
+                <li>[ทำงานภายใต้ความกดดันได้ดี]</li>
+                <li>[มีทักษะในการพูด]</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="contact" class="section">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:[ที่อยู่อีเมล]">[68100029@kmitl.ac.th]</a></p>
+        <p>LinkedIn: <a href="https://www.instagram.com/" target="_blank">https://www.instagram.com/</a></p>
+    </div>
+
+</body>
+</html>
